@@ -29,10 +29,14 @@ The following are prerequsite software that must be installed and configured:
 * APEX instance can be accessed using the web browser on your host. The port number is 49080 and may be changed in `Vagrantfile`.
 * Database can be accessed at port 49521 and may be changed in `Vagrantfile`
 
-## TODOs
+### TODOs
 - [ ] Comprehensive documentation
 - [ ] Consolidate configuration parameters into a single YAML file 
 - [ ] Directory for static web resources stored in Vagrant sync folders that is exposed through the Apache 2 server
 - [ ] firewalld configuration
 - [ ] Configure an ORDS administrator account
 - [ ] Enable SSL support
+
+### References
+* [oraclexe-apex](https://github.com/OraOpenSource/oraclexe-apex) by [Martin D'Souza](https://github.com/martindsouza)
+* [docker-oraclexe-apex](https://github.com/ddelmoli/docker-oraclexe-apex) by [Dominic Delmonlino](https://github.com/ddelmoli)
