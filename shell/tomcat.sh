@@ -7,3 +7,4 @@ cp /vagrant/config/proxy_ajp.conf /etc/httpd/conf.d/
 # Enable and start the apache2 service
 systemctl enable tomcat
 systemctl start tomcat
+systemctl restart httpd

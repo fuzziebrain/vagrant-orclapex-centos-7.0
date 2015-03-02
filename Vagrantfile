@@ -53,9 +53,6 @@ Vagrant.configure(2) do |config|
   #   # Customize the amount of memory on the VM:
     vb.cpus = "2"
     vb.memory = "1024"
-	#vb.customize ["modifyvm", :id, "--natsettings1", "0,400,400,0,0" ]
-    #vb.customize(["modifyvm", :id, "--nictype1", "Am79C973"])
-	#vb.customize(["modifyvm", :id, "--nictype1", "82543GC"])
   end
   #
   # View the documentation for the provider you are using for more
