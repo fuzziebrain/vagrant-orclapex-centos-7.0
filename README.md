@@ -26,6 +26,8 @@ The following are prerequsite software that must be installed and configured:
 * The password for both database users *sys* and *system* password is *manager* and may be changed in `config/xe.rsp`.
 * The passwords for *APEX_PUBLIC_USER*, *APEX_REST_PUBLIC_USER* and *APEX_LISTENER* is *oracle* and may be changed in `sql/postinstall_apex.sql`.
 * The password for APEX Instance Administrator is *Oracle1!* and may be changed in `sql/postinstall_apex.sql`.
+* APEX instance can be accessed using the web browser on your host. The port number is 49080 and may be changed in `Vagrantfile`.
+* Database can be accessed at port 49521 and may be changed in `Vagrantfile`
 
 ## TODOs
 - [ ] Comprehensive documentation
@@ -33,3 +35,4 @@ The following are prerequsite software that must be installed and configured:
 - [ ] Directory for static web resources stored in Vagrant sync folders that is exposed through the Apache 2 server
 - [ ] firewalld configuration
 - [ ] Configure an ORDS administrator account
+- [ ] Enable SSL support
