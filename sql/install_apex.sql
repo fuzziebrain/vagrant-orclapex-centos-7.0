@@ -6,6 +6,4 @@ STARTUP
 
 CREATE TABLESPACE APEX DATAFILE '/u01/app/oracle/oradata/XE/apex01.dbf' SIZE 300M AUTOEXTEND ON NEXT 5M;
 
-spool /tmp/vagrant
 @apexins.sql APEX APEX TEMP /i/
-spool off
