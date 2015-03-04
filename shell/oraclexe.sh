@@ -34,8 +34,11 @@ ln -s /u01/app/oracle/product/11.2.0/xe/bin/oracle_env.csh /etc/profile.d/oracle
 # Upgrade APEX sudo -u vagrant -i 
 source /u01/app/oracle/product/11.2.0/xe/bin/oracle_env.sh
 cd /tmp/vagrant/apex/
-sqlplus -s sys/manager as sysdba @/vagrant/sql/install_apex.sql
-sqlplus -s sys/manager as sysdba @/vagrant/sql/postinstall_apex.sql
+echo 'Upgrading APEX'
+sqlplus -s sys/manager as sysdba @/vagrant/sql/install_apex.sql > /dev/null
+echo 'Configuring APEX'
+sqlplus -s sys/manager as sysdba @/vagrant/sql/postinstall_apex.sql > /dev/null
+echo 'APEX upgrade complete'
 cd ~
 
 mkdir -p /opt/oracle/apex
