@@ -32,7 +32,7 @@ The following are prerequsite software that must be installed and configured:
 ### TODOs
 - [ ] Comprehensive documentation
 - [ ] Consolidate configuration parameters into a single YAML file 
-- [+] Directory for static web resources stored in Vagrant sync folders that is exposed through the Apache 2 server
+- [x] Directory for static web resources stored in Vagrant sync folders that is exposed through the Apache 2 server
 - [ ] firewalld configuration
 - [ ] Configure an ORDS administrator account
 - [ ] Enable SSL support
