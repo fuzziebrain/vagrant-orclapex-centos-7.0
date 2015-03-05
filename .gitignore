@@ -1,6 +1,11 @@
 ### Vagrant ###
 .vagrant/
 files/**
+!files/README.txt
+custom/**
+!custom/README.txt
+vendor/**
+!vendor/README.txt
 
 ### OSX ###
 .DS_Store

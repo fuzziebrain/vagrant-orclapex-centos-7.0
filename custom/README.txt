@@ -1,0 +1,1 @@
+For custom files, e.g. CSS, JavaScript, images.

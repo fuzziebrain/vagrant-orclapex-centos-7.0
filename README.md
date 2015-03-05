@@ -21,7 +21,7 @@ The following are prerequsite software that must be installed and configured:
 6. Execute the command: vagrant up
 
 ### Using the VM
-* To login to the server, SSH to host *localhost* at port *2222*. The username/password is *vagrant/vagrant*.
+* To login to the server, SSH to host *localhost* at port *49022*. The username/password is *vagrant/vagrant*.
 * The user *vagrant* has been added to the *dba* OS group.
 * The password for both database users *sys* and *system* password is *manager* and may be changed in `config/xe.rsp`.
 * The passwords for *APEX_PUBLIC_USER*, *APEX_REST_PUBLIC_USER* and *APEX_LISTENER* is *oracle* and may be changed in `sql/postinstall_apex.sql`.
@@ -32,7 +32,7 @@ The following are prerequsite software that must be installed and configured:
 ### TODOs
 - [ ] Comprehensive documentation
 - [ ] Consolidate configuration parameters into a single YAML file 
-- [ ] Directory for static web resources stored in Vagrant sync folders that is exposed through the Apache 2 server
+- [+] Directory for static web resources stored in Vagrant sync folders that is exposed through the Apache 2 server
 - [ ] firewalld configuration
 - [ ] Configure an ORDS administrator account
 - [ ] Enable SSL support

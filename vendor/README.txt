@@ -1,0 +1,1 @@
+For third-party libraries and resources, e.g. CSS, JavaScript, images.
