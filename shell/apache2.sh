@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Install Apache2 package
 yum -y install httpd
 

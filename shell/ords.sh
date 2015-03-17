@@ -1,3 +1,6 @@
+#!/bin/bash
+
+# Setup ORDS 2.0
 mkdir -p /tmp/vagrant/ords
 unzip /vagrant/files/ords.2.0.10.289.08.09.zip -d /tmp/vagrant/ords
 

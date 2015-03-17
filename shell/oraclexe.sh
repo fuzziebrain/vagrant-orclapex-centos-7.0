@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Add an additional 1 GB swap file for Oracle XE
 dd if=/dev/zero of=/swap1gb bs=1024 count=1048576
